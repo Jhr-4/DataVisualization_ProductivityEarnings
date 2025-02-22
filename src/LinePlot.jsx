@@ -25,7 +25,7 @@ const LinePlot = ({filePath, title, dependent, dateFormat="%m/%d/%Y"}) => {
       };
     })
       .then((loadedData) => setData(loadedData.filter(d => d !== null)));
-  }, []);
+  }, [filePath, dependent, dateFormat]);
 
   useEffect(() => {
     //if its data is empty.. just return
@@ -118,9 +118,11 @@ const LinePlot = ({filePath, title, dependent, dateFormat="%m/%d/%Y"}) => {
 
 
 
-  }, [data]);
+  }, [data, title, dependent]);
 
-  return <svg ref={svgRef} width={460} height={400}></svg>;
+  return <div style={{margin: "auto", maxWidth: "50vw", overflowX: "auto"}}>
+    <svg ref={svgRef} width={460} height={400}></svg>
+    </div>;
 };
 
 export default LinePlot;
