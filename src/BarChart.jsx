@@ -74,7 +74,7 @@ const BarChart = ({ filePath, title, dependent, dateFormat = "%m/%d/%Y" }) => {
       .attr("x", d => x(d.date))
       .attr("y", d => y(d[dependent]))
       .attr("height", d => height - y(d[dependent]))
-      .attr("width", 10);
+      .attr("width", 8);
 
     //text labels: title, x-Axis, y-Axis
     g.append("text")

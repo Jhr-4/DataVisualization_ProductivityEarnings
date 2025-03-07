@@ -8,8 +8,9 @@ function App() {
     <div className="App">
       <header>
         <h1>Data Visualization: <em>Earnings & Productivity Link</em></h1>
-        <h2><em>Have worker earnings increased with the rising labor productivity in the U.S.?</em></h2>
       </header>
+
+      <h2><em>Have worker earnings increased with the rising labor productivity in the U.S.?</em></h2>
 
       <div className='App-paragraph'>
         <p> 
@@ -41,7 +42,7 @@ function App() {
 
       <div className='App-paragraph'>
         <p>
-          This chart gives a more reasonable picture. The compensation increased around <b>+52.52%</b>, which is much better than the 11.94%, but still is not great as the productivity has increased almost <b>2.5x</b> more than the compensation in the same amount of time. So where are the rest of the profits going? One explanation can be seen in the rising corporate profits. 
+          This chart gives a more reasonable picture. It shows how compensation is actually gorwing, but just not as fast as the productivity growth. The compensation increased around <b>+52.52%</b>, which is much better than the 11.94%, but still is not great as the productivity has increased almost <b>2.5x</b> more than the compensation in the same amount of time. So where are the rest of the profits going? One explanation can be seen in the rising corporate profits. 
         </p>
       </div>
 
