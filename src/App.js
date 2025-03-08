@@ -1,6 +1,8 @@
 import './App.css';
 import LinePlot from "./LinePlot";
 import BarChart from "./BarChart";
+import PieChart from "./PieChart";
+
 
 function App() {
 
@@ -55,9 +57,19 @@ function App() {
         As seen in the chart, there is an increasing trend, over the years corporations/businesses have continuously gained more and more profit. To be exact there was an increase of <b>+1,634%</b> from 1979 to 2023. However, getting a clear picture is more complex. While rising corporate profits can be a potential reason of why workers earnings isn't keeping up with the productivity growth, corporate profit doesn't necessarily mean all the money is directly going to the executives. It can be going towards investing back into the company to get better technology and infrastructure.
       </p>
       <p>
-        Now talk about investment in technology? relate it back to one of the causes of rise in productivity too.
+        To see if this is actually true, let's analyze the factors that have caused labor productivity growth. Below is a chart containing the three major sectors that contribute to the labor productivity grwoth. Capital intensity contribution is how much of the productivity growth is due to capital that being used to get more or better equipment and technology. Labor contribution is how much the workers skills or education or other human factor is impacting the growth of productivity. Lastly, the total factor productivity (TFP) shows how much growth is due to efficiency from things like better management practices. 
       </p>
 
+    </div>
+    <PieChart filePath={`${process.env.PUBLIC_URL}/data/ProductivityContribution.csv`} title="Contributions to Labor Productivity Growth (1987-2022)" values="values"/>
+    <div className='App-paragraph'>
+      <p>
+        what this data means explain...
+      </p>
+
+      <p>
+        conclude..
+      </p>
     </div>
 
       <div className='App-paragraph'>
