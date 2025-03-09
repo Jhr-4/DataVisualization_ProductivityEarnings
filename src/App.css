@@ -5,10 +5,17 @@ body {
 .App {
   text-align: center;
   height: inherit;
-  margin: 5vh 10vw 5vh 10vw;
+  margin: 5vh 15vw 5vh 15vw;
   background-color: white;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  padding: 1vh 0 1vh 0;
+  padding: 1vh 2vw;
+}
+
+@media (max-width: 600px) {
+  .App {
+    margin: 5vh 5vw;
+    padding: 1vh 2vw;
+  }
 }
 
 .App-header {
