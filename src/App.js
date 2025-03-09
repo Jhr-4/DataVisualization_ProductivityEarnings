@@ -96,11 +96,11 @@ function App() {
         <h2>Data Sources:</h2>
         <hr />
           <ul>
-            <li><b>Contributions to Productivity Growth</b> <a href='https://www.bls.gov/news.release/prod3.tb.htm'>U.S. Bureau of Labor Statistics</a></li>
-            <li><b>Productivity: </b><a href='https://fred.stlouisfed.org/series/OPHNFB'>FRED - U.S. Bureau of Labor Statistics (OPHNFB)</a></li>
-            <li><b>Weekly Real Earnings: </b><a href='https://fred.stlouisfed.org/series/LES1252881600Q'>FRED - U.S. Bureau of Labor Statistics (LES1252881600Q)</a></li>
-            <li><b>Real Hourly Compensation: </b><a href='https://fred.stlouisfed.org/series/COMPRNFB'>FRED - U.S. Bureau of Labor Statistics (COMPRNFB)</a></li>
-            <li><b>Corporate Profits: </b> <a href='https://fred.stlouisfed.org/series/CPATAX'>FRED - U.S. Bureau of Labor Statistics via (CPATAX)</a></li>
+            <li><b>Contributions to Productivity Growth</b> <a href='https://www.bls.gov/news.release/prod3.tb.htm' target="_blank" rel="noreferrer noopener">U.S. Bureau of Labor Statistics</a></li>
+            <li><b>Productivity: </b><a href='https://fred.stlouisfed.org/series/OPHNFB' target="_blank" rel="noreferrer noopener">FRED - U.S. Bureau of Labor Statistics (OPHNFB)</a></li>
+            <li><b>Weekly Real Earnings: </b><a href='https://fred.stlouisfed.org/series/LES1252881600Q' target="_blank" rel="noreferrer noopener">FRED - U.S. Bureau of Labor Statistics (LES1252881600Q)</a></li>
+            <li><b>Real Hourly Compensation: </b><a href='https://fred.stlouisfed.org/series/COMPRNFB' target="_blank" rel="noreferrer noopener">FRED - U.S. Bureau of Labor Statistics (COMPRNFB)</a></li>
+            <li><b>Corporate Profits: </b> <a href='https://fred.stlouisfed.org/series/CPATAX' target="_blank" rel="noreferrer noopener">FRED - U.S. Bureau of Labor Statistics via (CPATAX)</a></li>
           </ul>
       </div>
 
