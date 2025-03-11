@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+  background-color: azure;/*default if the img doesn't load*/
+  margin: 0;
+}
+
+#bg{
+  background-image: url(/public/background.jpg);
+  background-size: cover;
+  filter: blur(1px);
+  width: 100vw;
+  height: 100vh;
+  top:0;
+  position: fixed;
+  z-index: -100;
+}

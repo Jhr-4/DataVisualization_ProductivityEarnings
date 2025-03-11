@@ -1,7 +1,7 @@
 import './App.css';
-import LinePlot from "./LinePlot";
-import BarChart from "./BarChart";
-import PieChart from "./PieChart";
+import LinePlot from "./components/LinePlot";
+import BarChart from "./components/BarChart";
+import PieChart from "./components/PieChart";
 
 
 function App() {
@@ -47,8 +47,13 @@ function App() {
 
       <div className='App-paragraph'>
         <p>
-          This chart gives a more reasonable picture. It shows how compensation is actually growing, but just not as fast as the productivity growth. The <b>compensation increased around 52.52%</b>, which is much better than the 11.94% seen in real weekly wages/salaries, but still falls behind the productivity growth, which has grown almost <b>2.5 times the compensation</b> over the same amount of time. So where are the rest of the profits going? One explanation can be seen in the rising corporate profits. 
+          This chart gives a more reasonable picture. It shows how compensation is actually growing, but just not as fast as the productivity growth. The <b>compensation increased around 52.52%</b>, which is much better than the 11.94% seen in real weekly wages/salaries, but still falls behind the productivity growth, which has grown almost <b>2.5 times the compensation</b> over the same amount of time.
+          <br/><br/>
+          One area important to note is the time around 2020 in which there was a surge in productivity and wages. During this time many work places were affected by the COVID-19 pendemic and had to resort to a remote work. This remote work lead to many companies to resort to high technology usage and automation which may explain the surge in productivity. For the compensation, it may be due to a skew in which many lost their jobs, and tech jobs which usally have a higher pay were able to transition easily remote maintaining their pay. Thus, resulting in many laborers to lose jobs skewing the compensation towards a higher number. However, despite this the trend was back to normal and the productivity is still increasing at a higher rate than the earnings.
+          <br/><br/>
+          So where are the rest of the profits going? One explanation can be seen in the rising corporate profits. 
         </p>
+        <h2>Where Does The Profit Go?</h2>
       </div>
 
       <BarChart filePath={`${process.env.PUBLIC_URL}/data/CorporateProfits.csv`} title="Corporate Profits Over Time (IVA & CCAd included)" dependent="Corporate_Profits_Indexed_1979" dateFormat="%m/%d/%Y" />
@@ -71,16 +76,15 @@ function App() {
         <br/><br/>
         This indicates how just because the productivity is growing doesn't mean the wages will follow the same trend at the same rate. Many times the profit from the increasing productivity goes to the companies/corporations or is reinvested via capital improvements as seen by the chart. This is one of the reasons by the wages and compensation lags behind the increasing trend of productivity.
         <br/><br/>
-        Additionally, with the recent advancements in Artificial Intelligence (AI), the gap is likely to just further increase. Many companies have been investing heavily in AI it to automate jobs, increase efficiency, and therefor increase their output. This will result in the productivity to grow even more which likely won't be reflected in the earnings of employees. 
+        Additionally, with the recent advancements in Artificial Intelligence (AI), the <b>gap is likely to just further increase</b>. Many companies have been investing heavily in AI it to automate jobs, increase efficiency, and therefor increase their output. This will result in the productivity to grow even more which likely won't be reflected in the earnings of employees. 
       </p>
-
+      <h2>Key Takeaways:</h2>
       <p>
         All in all, yes the trend is clear productivity in the U.S. is increasing heavily every year and the earnings of employees isn't keeping pace. While it may seem that the earnings are stagnant when looking at just the real wages, this isn't the full earnings of employees. Many earn bonuses and other forms of compensations which has been increasing slowly over the years, however is still isn't growing at the same speed as the productivity. This is essentially explained by the corporate profits which are increasing at a drastic rate from which a portion is reinvested back into the company. This is important to note as there's usually a large portion of profits going towards increasing the technology and machinery used in the companies. Which in turn also leads to a growth in the overall productivity, but at the cost of employees who aren't aren't earning at the same rate as the productivity increase.
         <br/><br/>
         This also brings light to the other problems like the income inequality/disparity. Many times the productivity just benefits the corporations or the top executives. The benefits of productivity don't always end up going to the workers/employees. To make sure this changes, there must be some form of policies to regulate the system. For example, policies to maintain a balance between the earnings of employees with the spendings on capital in comparisons to the productivity.
       </p>
     </div>
-
       <div className='App-paragraph'>
         <h2>Calculations:</h2>
         <hr />
