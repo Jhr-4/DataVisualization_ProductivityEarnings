@@ -1,5 +1,7 @@
 # Data Visualization: Labor Productivity & Earnings
 
+### [Slides Presentation](https://docs.google.com/presentation/d/1Xu9yI4SRXh8VMVWWFQHngrcuXYhJW-VV/edit?usp=sharing&ouid=102101968864898302290&rtpof=true&sd=true)
+
 ### Essential Question:
 How does the increasing worker productivity correlate with their earnings? Are workers benefiting from increasing productivity?
 
