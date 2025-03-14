@@ -25,7 +25,6 @@ const PieChart = ({ filePath, title, values}) => {
 
   useEffect(() => {
     //if its data is empty.. just return
-    console.log(data);
     if (data.length === 0) return;
 
 
