@@ -23,7 +23,7 @@ function App() {
       </div>
 
       <LinePlot filePath={`${process.env.PUBLIC_URL}/data/ProductivityVsEarnings.csv`} title="Labor Productivity vs. Real Weekly Earnings" dependent="earnings" dateFormat="%m/%d/%Y" />
-
+      <p> <span style={{color: "red"}}>(Red = Real Earnings)</span>, <span style={{color: "blue"}}>(Blue = Labor Productivity)</span></p>
 
       <div className='App-paragraph'>
         <p>
@@ -44,7 +44,7 @@ function App() {
       </div>
 
       <LinePlot filePath={`${process.env.PUBLIC_URL}/data/ProductivityVsCompensation.csv`} title="Labor Productivity vs. Real Hourly Compensation" dependent="compensation" dateFormat="%Y-%m-%d" />
-
+      <p> <span style={{color: "red"}}>(Red = Real Hourly Compensation)</span>, <span style={{color: "blue"}}>(Blue = Labor Productivity)</span></p>
       <div className='App-paragraph'>
         <p>
           This chart gives a more reasonable picture. It shows how compensation is actually growing, but just not as fast as the productivity growth. The <b>compensation increased around 52.52%</b>, which is much better than the 11.94% seen in real weekly wages/salaries, but still falls behind the productivity growth, which has grown almost <b>2.5 times the compensation</b> over the same amount of time.
