@@ -3,15 +3,9 @@
   height: inherit;
   margin: 5vh 15vw 5vh 15vw;
   background-color: white;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-shadow: rgba(1, 52, 0, 0.51) 0px 0px 2em;
   padding: 1vh 2vw;
-}
-
-@media (max-width: 600px) {
-  .App {
-    margin: 5vh 5vw;
-    padding: 1vh 2vw;
-  }
+  border-radius: 1em;
 }
 
 .App-header {
@@ -33,4 +27,16 @@
 
 .App-link {
   color: #61dafb;
+}
+
+@media (max-width: 850px) {
+  .App {
+    margin: 5vh 5vw;
+    padding: 1vh 2vw;
+  }
+  .App-paragraph {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: left;
+  }
 }
